@@ -15,7 +15,8 @@ I came accross this [stackexchange question](https://crypto.stackexchange.com/qu
 <p align="center">
 <img src="images/t.png"/>
 </p>
-Ok, so this also needs some cleartexts in order to retrive the n. Looking at the rsa.py file I noticed that the text in encrypted character by character 
+Ok, so this also needs some cleartexts in order to retrive the n. Looking at the rsa.py file I noticed that the text in encrypted character by character
+
 ```python
 def enc(key, p):
     e, n = key

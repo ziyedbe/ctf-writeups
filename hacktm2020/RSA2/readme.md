@@ -44,7 +44,7 @@ for i in c:
 						ns.append(g)
 						print(g)
 ```
-Output 
+###Output 
 ```
 53361144550014053166721365196980912889938802302767543436340298420353476899874610747222379321544658210212273658744624182437888528301817525619324262586755752560722184172889301780332276353612167586294259101340749155939404015704537471927068307582449663907783314406726655255040519664154112497941090624585931831047
 ```
@@ -52,7 +52,7 @@ Great! We have n now!
 
 So it's time to decrypt the ciphertexts.
 
-```
+```python
 from gmpy2 import gcd
 import string
 ch = string.printable
@@ -79,7 +79,7 @@ for i in c:
 		pass
 print(f)
 ```
-Output
+###Output
 ```
 when i was in college in the early 70s, i devised what i believed was a brilliant encryption scheme. a simple pseudorandom number stream was added to the plaintext stream to create ciphertext. this would seemingly thwart any frequency analysis of the ciphertext, and would be uncrackable even to the most resourceful government intelligence agencies. i felt so smug about my achievement. years later, i discovered this same scheme in several introductory cryptography texts and tutorial papers. how nice. other cryptographers had thought of the same scheme. unfortunately, the scheme was presented as a simple homework assignment on how to use elementary cryptanalytic techniques to trivially crack it. so much for my brilliant scheme. from this humbling experience i learned how easy it is to fall into a false sense of security when devising an encryption algorithm. most people dont realize how fiendishly difficult it is to devise an encryption algorithm that can withstand a prolonged and determined attack by a resourceful opponent. here is the flag. when it comes to crypto or carpet never roll your own
 ```

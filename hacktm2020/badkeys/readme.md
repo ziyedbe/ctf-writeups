@@ -14,7 +14,7 @@ I noticed that there is a snapshot that i can access via "nc 138.68.67.161 60005
 <p align="center">
 <img src="images/snapshot.png"/>
 </p>
-So I grabbed few public and private keys and used a (script)[https://github.com/ziyedbe/ctf-writeups/blob/master/hacktm2020/badkeys/retrieve.py] i found online to factor n knowing n,e and d (As the names suggests, bad keys)
+So I grabbed few public and private keys and used a [script](https://github.com/ziyedbe/ctf-writeups/blob/master/hacktm2020/badkeys/retrieve.py) i found online to factor n knowing n,e and d (As the names suggests, bad keys)
 
 Output
 

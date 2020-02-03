@@ -1,4 +1,4 @@
-# RSA is easy #2
+# RSA is easy 2
 <p align="center">
 <img src="images/rsa.png"/>
 </p>
